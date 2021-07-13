@@ -41,18 +41,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This is a video conferencing application that is used to host virtual meetings, chats and audio conferencing. 
 It is developed using *Scrum Methodology* of Agile Development with four sprints (1 week each). The major tech stacks used are *PeerJS, socket.io, Google Firebase and Express*.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+* [Node.js](https://nodejs.org/en/)
+* [PeerJS]
+* [Socket.io]
+* [Express]
+* [Google Firebase]
+* [Bootstrap]
+* [EJS]
 
 
 <!-- GETTING STARTED -->
@@ -107,8 +107,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <table border="0">
  <tr>
-   <td>Video On/Off</td>
-   <td>Audio On/Off</td>
+   <td><b>Video On/Off</b></td>
+   <td><b>Audio On/Off</b></td>
  </tr>
  <tr>
    <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Video_On_Off.gif" alt="video" width="100%"/></td>
@@ -116,16 +116,43 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     
  </tr>
   <tr>
-   <td>Chat</td>
-   <td>Show Participants</td>
+   <td><b>Chat</b></td>
+   <td><b>Show Participants</b></td>
  </tr>
  <tr>
-<!--    <td>![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Screen%20Share.gif)</td> -->
    <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Chat.gif"></td>
    <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Show%20Participants.gif" width="95%"></td>
     
  </tr>
+ <tr>
+   <td><b>Quick Message</b></td>
+   <td><b>Send Emoji</b></td>
+ </tr>
+ <tr>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Quick%20Message.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Send%20Emoji.gif" alt="video" width="100%"/></td>
+    
+ </tr>
+ <tr>
+   <td><b>Raise Hand</b></td>
+   <td><b>Pin Video</b></td>
+ </tr>
+ <tr>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Hand%20Raise.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Hand%20Raise.gif" alt="video" width="100%"/></td> 
+ </tr>
+ <tr>
+   <td><b>Copy Meet Code</b></td>
+   <td><b>End Call</b></td>
+ </tr>
+ <tr>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Copy%20Meet%20Code.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/End%20Call.gif" alt="video" width="100%"/></td> 
+  </tr>
 </table>
+
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
