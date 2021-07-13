@@ -41,7 +41,7 @@
 This is a video conferencing application that is used to host virtual meetings, chats and audio conferencing. 
 It is developed using *Scrum Methodology* of Agile Development with four sprints (1 week each). The major tech stacks used are *PeerJS, socket.io, Google Firebase and Express*.
 
-## Built With
+### Built With
 <img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" >
 <img align="left" alt ="C++"  width="40px" src="https://avatars.githubusercontent.com/u/3409784?s=280&v=4" >
 <img align="left" alt ="C++"  width="40px" src="https://raw.githubusercontent.com/aleksandryackovlev/openapi-mock-express-middleware/master/assets/express-logo.png" >
@@ -50,7 +50,7 @@ It is developed using *Scrum Methodology* of Agile Development with four sprints
 <img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" >
 
 
-## Disclaimer
+### Disclaimer
   ``` sh
   Only cloning this repository won't establish the p2p connection. You need to implement your TURN server 
   and integrate firebase database with it. (Steps mentioned in Installation section)
