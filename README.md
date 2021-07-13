@@ -1,49 +1,10 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Microsoft Teams Clone</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    Microsoft Engage Mentorship Program 2021
   </p>
 </p>
 
@@ -82,16 +43,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+This is a video conferencing application that is used to host virtual meetings, chats and audio conferencing. 
+It is developed using *Scrum Methodology* of Agile Development with four sprints (1 week each). The major tech stacks used are *PeerJS, socket.io, Google Firebase and Express*.
 
 ### Built With
 
@@ -141,7 +94,38 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
+## Architecture Diagram
 
+![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/High%20Level%20Design.png)
+
+## Flow Diagram
+
+<img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/Flow%20Diagram.png" alt="flow" width="60%"/>
+<!-- ![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/Flow%20Diagram.png) -->
+
+## Features
+
+<table border="0">
+ <tr>
+   <td>Video On/Off</td>
+   <td>Audio On/Off</td>
+ </tr>
+ <tr>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Video_On_Off.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Mute%20Call.gif" alt="video" width="100%"/></td>
+    
+ </tr>
+  <tr>
+   <td>Chat</td>
+   <td>Show Participants</td>
+ </tr>
+ <tr>
+<!--    <td>![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Screen%20Share.gif)</td> -->
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Chat.gif"></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Show%20Participants.gif" width="95%"></td>
+    
+ </tr>
+</table>
 
 <!-- ROADMAP -->
 ## Roadmap
