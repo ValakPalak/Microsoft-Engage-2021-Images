@@ -18,6 +18,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#disclaimer">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -27,9 +28,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Architecture Diagram">Contact</a></li>
-    <li><a href="#Flow Diagram">Contact</a></li>
-    <li><a href="#Features">Contact</a></li>
+    <li><a href="#architecture-diagram">Architecutre</a></li>
+    <li><a href="#flow-diagram">Flow Diagram</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -47,7 +48,7 @@ It is developed using *Scrum Methodology* of Agile Development with four sprints
 <img align="left" alt ="C++"  width="40px" src="https://raw.githubusercontent.com/aleksandryackovlev/openapi-mock-express-middleware/master/assets/express-logo.png" >
 <img align="left" alt ="C++"  width="40px" src="https://www.gstatic.com/devrel-devsite/prod/v5f61782021051fb502364887a46a1c5ce2cd6f3d29a3549e907afe67612e9bba/firebase/images/touchicon-180.png" >
 <img align="left" alt ="C++"  width="40px" src="https://brandslogos.com/wp-content/uploads/thumbs/bootstrap-logo-vector.svg" >
-<img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" >
+<img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" />
 
 
 ### Disclaimer
