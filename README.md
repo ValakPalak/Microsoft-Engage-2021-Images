@@ -51,8 +51,8 @@ It is developed using *Scrum Methodology* of Agile Development with four sprints
 
 ### Disclaimer
   ``` sh
-  Peer-to-peer connection will not be established by just cloning this repository. You will need to implement your TURN server 
-  and integrate firebase database with it. (Steps mentioned in Installation section)
+  Peer-to-peer connection will not be established by just cloning this repository. You will need to implement your TURN 
+  server and integrate firebase database with it. (Steps mentioned in Installation section)
   ```
 
 <!-- GETTING STARTED -->
@@ -102,11 +102,11 @@ This is an example of how to list things you need to use the software and how to
 
 ## Architecture Diagram
 
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/High%20Level%20Design.png)
+![](https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Architecture%20Diagrams/High%20Level%20Design.png)
 
 ## Flow Diagram
 
-<img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/Flow%20Diagram.png" alt="flow" width="60%"/>
+<img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Architecture%20Diagrams/Flow%20Diagram.png" alt="flow" width="60%"/>
 <!-- ![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/Flow%20Diagram.png) -->
 
 ## Features
@@ -117,8 +117,8 @@ This is an example of how to list things you need to use the software and how to
    <td><b>Audio On/Off</b></td>
  </tr>
  <tr>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Video_On_Off.gif" alt="video" width="100%"/></td>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Mute%20Call.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Video_On_Off.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Mute%20Call.gif" alt="video" width="100%"/></td>
     
  </tr>
   <tr>
@@ -126,8 +126,8 @@ This is an example of how to list things you need to use the software and how to
    <td><b>Show Participants</b></td>
  </tr>
  <tr>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Chat.gif"></td>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Show%20Participants.gif" width="95%"></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Chat.gif"></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Show%20Participants.gif" width="95%"></td>
     
  </tr>
  <tr>
@@ -135,8 +135,8 @@ This is an example of how to list things you need to use the software and how to
    <td><b>Send Emoji</b></td>
  </tr>
  <tr>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Quick%20Message.gif" alt="video" width="100%"/></td>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Send%20Emoji.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Quick%20Message.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Send%20Emoji.gif" alt="video" width="100%"/></td>
     
  </tr>
  <tr>
@@ -144,7 +144,7 @@ This is an example of how to list things you need to use the software and how to
    <td><b>Pin Video</b></td>
  </tr>
  <tr>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Hand%20Raise.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Hand%20Raise.gif" alt="video" width="100%"/></td>
    <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Pin%20Video.gif" alt="video" width="100%"/></td> 
  </tr>
  <tr>
@@ -152,8 +152,8 @@ This is an example of how to list things you need to use the software and how to
    <td><b>End Call</b></td>
  </tr>
  <tr>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Copy%20Meet%20Code.gif" alt="video" width="100%"/></td>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/End%20Call.gif" alt="video" width="100%"/></td> 
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Copy%20Meet%20Code.gif" alt="video" width="100%"/></td>
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/End%20Call.gif" alt="video" width="100%"/></td> 
   </tr>
 </table>
 
