@@ -44,7 +44,7 @@ It is developed using *Scrum Methodology* of Agile Development with four sprints
 ### Built With
 <img align="left" alt ="C++"  width="45px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" >
 <img align="left" alt ="C++"  width="45px" src="https://avatars.githubusercontent.com/u/3409784?s=280&v=4" >
-<img align="left" alt ="C++"  width="45px" src="https://raw.githubusercontent.com/aleksandryackovlev/openapi-mock-express-middleware/master/assets/express-logo.png" >
+<img align="left" alt ="C++"  width="45px" style="vertical-align:middle;" src="https://raw.githubusercontent.com/aleksandryackovlev/openapi-mock-express-middleware/master/assets/express-logo.png" >
 <img align="left" alt ="C++"  width="45px" src="https://pluralsight2.imgix.net/paths/images/javascript-542e10ea6e.png" >
 <img align="left" alt ="C++"  width="45px" src="https://www.gstatic.com/devrel-devsite/prod/v5f61782021051fb502364887a46a1c5ce2cd6f3d29a3549e907afe67612e9bba/firebase/images/touchicon-180.png" >
 <img align="left" alt ="C++"  width="45px" src="https://brandslogos.com/wp-content/uploads/thumbs/bootstrap-logo-vector.svg" >
