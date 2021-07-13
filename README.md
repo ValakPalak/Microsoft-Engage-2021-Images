@@ -27,15 +27,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#Architecture Diagram">Contact</a></li>
+    <li><a href="#Flow Diagram">Contact</a></li>
+    <li><a href="#Features">Contact</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -52,7 +49,6 @@ It is developed using *Scrum Methodology* of Agile Development with four sprints
 <img align="left" alt ="C++"  width="40px" src="https://brandslogos.com/wp-content/uploads/thumbs/bootstrap-logo-vector.svg" >
 <img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" >
 
-&nbsp
 
 ## Disclaimer
   ``` sh
