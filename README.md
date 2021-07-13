@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <h1 align="center">Microsoft Teams Clone</h1>
@@ -52,7 +51,7 @@ It is developed using *Scrum Methodology* of Agile Development with four sprints
 
 ### Disclaimer
   ``` sh
-  Only cloning this repository won't establish the p2p connection. You need to implement your TURN server 
+  Peer-to-peer connection will not be established by just cloning this repository. You will need to implement your TURN server 
   and integrate firebase database with it. (Steps mentioned in Installation section)
   ```
 
@@ -95,7 +94,8 @@ This is an example of how to list things you need to use the software and how to
    ``` sh
    API_KEY = 'ENTER YOUR API';
    ``` 
-7. Add your TURN SERVER Credentials in `script.js`
+7. Add your TURN SERVER Credentials (Lines 51-55) in `script.js`
+8. While hosting on Heroku, Uncomment Lines 39-56 in `script.js` 
 
 
 <!-- USAGE EXAMPLES -->
@@ -145,7 +145,7 @@ This is an example of how to list things you need to use the software and how to
  </tr>
  <tr>
    <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Hand%20Raise.gif" alt="video" width="100%"/></td>
-   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Hand%20Raise.gif" alt="video" width="100%"/></td> 
+   <td><img src="https://github.com/ValakPalak/Microsoft-Engage-2021-Images/blob/main/Images/Features/Pin%20Video.gif" alt="video" width="100%"/></td> 
  </tr>
  <tr>
    <td><b>Copy Meet Code</b></td>
