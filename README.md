@@ -1,11 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center"><b>Microsoft Teams Clone</b></h1>
-
-  <p align="center">
-    <h2> Microsoft Engage Mentorship Program 2021 </h2>
-  </p>
+  <h1 align="center">Microsoft Teams Clone<</h1>
+  <h2 align="center"> Microsoft Engage Mentorship Program 2021 </h2>
+  
 </p>
 
 
