@@ -44,55 +44,65 @@
 This is a video conferencing application that is used to host virtual meetings, chats and audio conferencing. 
 It is developed using *Scrum Methodology* of Agile Development with four sprints (1 week each). The major tech stacks used are *PeerJS, socket.io, Google Firebase and Express*.
 
-### Built With
+## Built With
+<img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" >
+<img align="left" alt ="C++"  width="40px" src="https://avatars.githubusercontent.com/u/3409784?s=280&v=4" >
+<img align="left" alt ="C++"  width="40px" src="https://raw.githubusercontent.com/aleksandryackovlev/openapi-mock-express-middleware/master/assets/express-logo.png" >
+<img align="left" alt ="C++"  width="40px" src="https://www.gstatic.com/devrel-devsite/prod/v5f61782021051fb502364887a46a1c5ce2cd6f3d29a3549e907afe67612e9bba/firebase/images/touchicon-180.png" >
+<img align="left" alt ="C++"  width="40px" src="https://brandslogos.com/wp-content/uploads/thumbs/bootstrap-logo-vector.svg" >
+<img align="left" alt ="C++"  width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg" >
 
-* [Node.js](https://nodejs.org/en/)
-* [PeerJS]
-* [Socket.io]
-* [Express]
-* [Google Firebase]
-* [Bootstrap]
-* [EJS]
+&nbsp
 
+## Disclaimer
+  ``` sh
+  Only cloning this repository won't establish the p2p connection. You need to implement your TURN server 
+  and integrate firebase database with it. (Steps mentioned in Installation section)
+  ```
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
+<details open="open">
+  <summary><b>Prerequisites</b></summary>
+  
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
+*  dotenv: "^10.0.0"  
+*  ejs: "^3.1.6",
+*  express: "^4.17.1",
+*  express-session: "^1.17.2",
+*  firebase: "^8.7.1",
+*  peer: "^0.6.1",
+*  peerjs: "^1.3.2",
+*  socket.io: "^4.1.2",
+*  uuid : "^8.3.2"
+</details>
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Get a free API Key at [https://firebase.google.com/](https://firebase.google.com/)
+2. Setup a realtime database on firebase google. [Refer This](https://lo-victoria.com/build-firebase-realtime-chat-app)
+3. Setup a TURN server. [Refer This](https://kostya-malsev.medium.com/set-up-a-turn-server-on-aws-in-15-minutes-25beb145bc77)
+4. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
-3. Install NPM packages
+5. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+6. Enter your API in `.env` file. Refer `.env_sample`
+   ``` sh
+   API_KEY = 'ENTER YOUR API';
+   ``` 
+7. Add your TURN SERVER Credentials in `script.js`
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Architecture Diagram
 
@@ -154,124 +164,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Palak Kothari - [@PalakKothari](https://www.linkedin.com/in/palakothari/) - pkothari@iitg.ac.in
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-
-
-# Microsoft-Teams-Clone
-This is a video conferencing application that is used to host virtual meetings, chats and audio conferencing. 
-It is developed using *Scrum Methodology* of Agile Development with four sprints (1 week each). The major tech stacks used are *PeerJS, socket.io, Google Firebase and Express*.
-
-Architecture Diagram:
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/High%20Level%20Design.png)
-
-Flow Diagram:
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Architecture%20Diagrams/Flow%20Diagram.png)
-
-Features:
-
-1. Video/Audio Call
-2. Create Meeting
-3. Join Meeting
-4. Video On/Off
-<img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Video_On_Off.gif" alt="video" width="500"/>
-
-<!-- ![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Video_On_Off.gif =250x) -->
-5. Audio On/Off
-
-<img src="https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Mute%20Call.gif" alt="video" width="500"/>
-<!-- ![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Mute%20Call.gif) -->
-6. End Call
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/End%20Call.gif)
-7. Copy Meet Code to Invite
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Copy%20Meet%20Code.gif)
-8. Screen Sharing
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Screen%20Share.gif)
-9. Chat Feature
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Chat.gif)
-10. Show Participants
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Show%20Participants.gif)
-11. Send Emojis
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Send%20Emoji.gif)
-12. Quick Message
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Quick%20Message.gif)
-13. Raise Hand
-
-![](https://github.com/ValakPalak/Microsoft-Engage-2021/blob/main/Images/Features/Hand%20Raise.gif)
-14. Pin Video
